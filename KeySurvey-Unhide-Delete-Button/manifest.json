@@ -1,0 +1,17 @@
+{
+  "name": "KeySurvey Unhide Delete Button",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Show the Delete Response button when viewing KeySurvey Responses",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://survey2.beyondfeedback.com/*"
+],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
