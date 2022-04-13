@@ -1,17 +1,15 @@
 {
   "name": "KeySurvey Unhide Delete Button",
   "manifest_version": 3,
-  "version": "0.1",
+  "version": "0.2",
   "description": "Show the Delete Response button when viewing KeySurvey Responses",
-  "permissions": [
-    "scripting"
+  "homepage_url": "https://github.com/noah-taylor/KeySurvey-Unhide-Delete-Button",
+  "content_scripts": [
+    {
+      "matches": ["*://survey2.beyondfeedback.com/reportmodule*"],
+      "js": ["show_delete_button.js"]
+    }
   ],
-  "host_permissions": [
-    "https://survey2.beyondfeedback.com/*"
-],
-  "background": {
-    "service_worker": "background.js"
-  },
   "icons": {
 	  "128": "/images/128.png"
   }
