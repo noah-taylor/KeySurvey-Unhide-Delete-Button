@@ -1,0 +1,13 @@
+Description: Make KeySurvey response management easier by automatically showing the Delete Button. This avoids the need to manually unhide the button in dev tools.
+
+Category: Productivity
+
+Images are included in the images folder
+
+Homepage URL: https://github.com/noah-taylor/KeySurvey-Unhide-Delete-Button
+
+Support URL: https://github.com/noah-taylor/KeySurvey-Unhide-Delete-Button/issues
+
+Single Purpose Description: Unhide a button which is hidden by default. We currently do this by accessing dev tools whenever we need this button.
+
+Host permission justification: Only run on a single subdomain which is owned by our company. The extension is private and will only be distributed to our company.
